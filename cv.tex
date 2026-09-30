@@ -1,0 +1,53 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt, a4paper]{awesome-cv}
+
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Tech-oriented color theme
+\colorlet{awesome}{awesome-skyblue}
+
+\setbool{acvSectionColorHighlight}{true}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%-------------------------------------------------------------------------------
+\name{Dawood Saleh}{Ahmed Hormos}
+\position{Full-Stack Developer{\enskip\cdotp\enskip}Laravel \& React Specialist}
+\address{Yemen (Open to Remote / Relocation)}
+
+\mobile{+966551295899}
+\email{eng.dawoodsaleh@gmail.com}
+% \github{your-github-handle}       % <-- Add your GitHub username here
+% \linkedin{your-linkedin-handle}   % <-- Add your LinkedIn handle here
+
+\quote{``Clean code is not written by following a set of rules. You know you are working on clean code when each routine turns out to be pretty much what you expected." — Robert C. Martin}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+\makecvheader
+
+\makecvfooter
+  {\today}
+  {Dawood Saleh Ahmed Hormos~~~·~~~Full-Stack Developer}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV CONTENT
+%-------------------------------------------------------------------------------
+\input{cv/summary.tex}
+\input{cv/skills.tex}
+\input{cv/experience.tex}
+\input{cv/education.tex}
+\input{cv/certificates.tex}
+\input{cv/accomplishments.tex}
+
+
+%-------------------------------------------------------------------------------
+\end{document}
